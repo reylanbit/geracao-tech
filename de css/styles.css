@@ -1,0 +1,150 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.5;
+  color: #1f2937;
+  background: #f3f4f6;
+}
+
+.container {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.site-header {
+  background: #111827;
+  color: #ffffff;
+  border-bottom: 4px solid #3b82f6;
+}
+
+.site-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 24px;
+}
+
+.site-header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.hero {
+  padding: 40px 0;
+}
+
+.hero .container {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.06);
+}
+
+.hero h2 {
+  font-size: 28px;
+  color: #0f172a;
+  margin: 0;
+}
+
+.hero p {
+  margin: 0;
+  color: #374151;
+}
+
+.equipe {
+  padding: 48px 0;
+}
+
+.equipe .container > h2 {
+  margin: 0 0 16px 0;
+  font-size: 24px;
+  color: #0f172a;
+}
+
+.teams {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.team-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1 1 300px;
+  min-width: 260px;
+}
+
+.team-card h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #111827;
+}
+
+.team-card p {
+  margin: 0;
+  color: #4b5563;
+}
+
+.site-footer {
+  margin-top: 40px;
+  background: #111827;
+  color: #ffffff;
+  border-top: 4px solid #3b82f6;
+}
+
+.site-footer .container {
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-footer small {
+  opacity: 0.9;
+}
+
+@media (max-width: 960px) {
+  .team-card {
+    flex: 1 1 45%;
+  }
+}
+
+@media (max-width: 640px) {
+  .site-header .container {
+    padding: 16px 24px;
+  }
+  .hero .container {
+    padding: 24px;
+  }
+  .team-card {
+    flex: 1 1 100%;
+  }
+}
+
+.flex-row { display: flex; flex-direction: row; }
+.flex-col { display: flex; flex-direction: column; }
+.items-center { align-items: center; }
+.justify-between { justify-content: space-between; }
+.justify-center { justify-content: center; }
+.wrap { flex-wrap: wrap; }
