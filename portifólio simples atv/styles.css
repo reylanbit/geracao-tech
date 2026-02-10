@@ -1,0 +1,62 @@
+html { box-sizing: border-box; }
+*, *::before, *::after { box-sizing: inherit; }
+
+body {
+  margin: 0;
+  padding: 2em;
+  background: #f7fafc;
+  color: #111827;
+  font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 900px;
+}
+
+.bio p {
+  font-size: 1.125em;
+  color: #374151;
+  margin-top: 1em;
+}
+
+#skills ul {
+  list-style: disc;
+  padding-left: 1.5em;
+  margin: 1.25em 0;
+}
+
+#skills ul li {
+  padding: 0.5em 0.75em;
+  margin-bottom: 0.75em;
+  border-radius: 0.5em;
+  font-size: 1em;
+}
+
+#skills ul li.skill-html {
+  background: #FFF7ED;
+  color: #9A3412;
+}
+
+#skills ul li.skill-css {
+  background: #ECFEFF;
+  color: #0E7490;
+}
+
+#skills ul li.skill-js {
+  background: #FEFCE8;
+  color: #A16207;
+}
+
+section {
+  margin-top: 2em;
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.5rem; }
+
+@media (max-width: 600px) {
+  body {
+    padding: 1.25em;
+    font-size: 15px;
+  }
+  #skills ul li { font-size: 0.95em; }
+}
