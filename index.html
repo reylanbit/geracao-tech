@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Página Semântica com Mídia</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, "Apple Color Emoji", "Segoe UI Emoji"; line-height: 1.6; color: #1f2937; background: #f7f7f7; }
+    header { background: linear-gradient(90deg, #0ea5e9, #2563eb); color: #fff; padding: 2rem 1rem; text-align: center; }
+    nav { background: #111827; position: sticky; top: 0; z-index: 10; }
+    nav ul { list-style: none; display: flex; gap: 0.5rem; margin: 0; padding: 0.75rem 1rem; flex-wrap: wrap; }
+    nav li { margin: 0; }
+    nav a { color: #e5e7eb; text-decoration: none; padding: 0.5rem 0.75rem; border-radius: 0.375rem; display: inline-block; }
+    nav a:hover, nav a:focus { background: #374151; color: #fff; }
+    main { max-width: 1000px; margin: 1.5rem auto; padding: 0 1rem; }
+    section { background: #fff; border: 1px solid #e5e7eb; border-radius: 0.5rem; padding: 1rem; margin-bottom: 1rem; }
+    section h2 { margin-top: 0; }
+    .media-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; align-items: start; }
+    footer { text-align: center; color: #6b7280; padding: 2rem 1rem; }
+  </style>
+</head>
+<body>
+  <header id="inicio">
+    <h1 style="margin: 0; letter-spacing: 0.5px;">Minha Página Web</h1>
+    <h2 style="margin: 0; font-weight: 500;">Exemplo semântico com mídia</h2>
+    <p>Bem-vindo. Esta página demonstra estrutura semântica, navegação e elementos multimídia.</p>
+  </header>
+
+  <nav aria-label="Navegação principal">
+    <ul>
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#conteudo">Conteúdo</a></li>
+      <li><a href="#midia">Mídia</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="sobre">
+      <h2>Sobre</h2>
+      <p>Personalize este texto com informações sobre o objetivo da sua página e o que o usuário encontrará aqui.</p>
+    </section>
+
+    <section id="conteudo">
+      <h2>Conteúdo</h2>
+      <article>
+        <h3 style="color: #2563eb;">Exemplo de artigo</h3>
+        <p>Use esta área para apresentar um conteúdo principal, como um artigo ou notícia. Você pode adicionar mais textos, imagens e listas conforme necessário.</p>
+        <ul>
+          <li>Estrutura semântica com tags adequadas</li>
+          <li>Navegação interna com links</li>
+          <li>Mídia de áudio e vídeo incorporada</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="midia">
+      <h2>Mídia</h2>
+      <div class="media-grid">
+        <div>
+          <h3>Áudio</h3>
+          <audio controls preload="none">
+            <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+            Seu navegador não suporta áudio HTML5.
+          </audio>
+          <p style="font-size: 0.95rem;">Clique em reproduzir para ouvir um exemplo de áudio.</p>
+        </div>
+        <div>
+          <h3>Vídeo</h3>
+          <video controls width="100%" poster="https://www.w3schools.com/html/img_chania.jpg">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Seu navegador não suporta vídeo HTML5.
+          </video>
+          <p style="font-size: 0.95rem;">Assista a um vídeo de exemplo incorporado à página.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Entre em contato para dúvidas ou sugestões.</p>
+      <address>
+        Email: <a href="mailto:exemplo@dominio.com">exemplo@dominio.com</a><br>
+        Telefone: <a href="tel:+5511999999999">+55 11 99999-9999</a>
+      </address>
+    </section>
+  </main>
+
+  <footer>
+    Desenvolvido com HTML semântico e elementos multimídia.
+  </footer>
+</body>
+</html>
