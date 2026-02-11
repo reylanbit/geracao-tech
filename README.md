@@ -83,28 +83,32 @@
 <p align="center">
   <a href="#consulta-perfil">
     <img src="https://img.shields.io/badge/Consulta-Perfil-F75C7E?style=for-the-badge" />
-  </a>
+  </a><br/>
   <a href="#consulta-top-skills">
     <img src="https://img.shields.io/badge/Consulta-Top%20Skills-F85D7F?style=for-the-badge" />
-  </a>
+  </a><br/>
   <a href="#consulta-projetos-java-sql">
     <img src="https://img.shields.io/badge/Consulta-Projetos%20Java%2FSQL-F8D866?style=for-the-badge" />
-  </a>
+  </a><br/>
   <a href="#consulta-ltv-por-coorte">
     <img src="https://img.shields.io/badge/Consulta-LTV%20por%20Coorte-55960C?style=for-the-badge" />
   </a>
 </p>
 
-### Consulta: Perfil {#consulta-perfil}
+<a id="consulta-perfil"></a>
+### Consulta: Perfil
 - Visão consolidada do portfólio (identidade profissional e posição).
 
-### Consulta: Top Skills {#consulta-top-skills}
+<a id="consulta-top-skills"></a>
+### Consulta: Top Skills
 - Ranking de habilidades por score combinando nível e anos de experiência.
 
-### Consulta: Projetos Java/SQL {#consulta-projetos-java-sql}
+<a id="consulta-projetos-java-sql"></a>
+### Consulta: Projetos Java/SQL
 - Filtro de projetos com stack Java e SQL evidenciando foco técnico.
 
-### Consulta: LTV por Coorte {#consulta-ltv-por-coorte}
+<a id="consulta-ltv-por-coorte"></a>
+### Consulta: LTV por Coorte
 - Análise de LTV por campanha e mês, com janelas e médias móveis.
 ## Foco Profissional
 - Java, Spring Boot, PostgreSQL, modelagem relacional, ETL, varejo e dados.
