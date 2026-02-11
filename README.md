@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Darlan%20Saints;Full-Stack%20Java%20%26%20SQL;Engenheiro%20de%20Dados;Aut%C3%B4nomo%20no%20Varejo;Sempre%20aprendendo&font=Fira%20Code&center=true&width=640&height=45&color=f75c7e&vCenter=true&pause=1000&size=22" />
+    <img src="https://readme-typing-svg.demolab.com/?lines=Full-Stack%20Java%20%26%20SQL;Engenheiro%20de%20Dados;Aut%C3%B4nomo%20no%20Varejo;Sempre%20aprendendo&font=Fira%20Code&center=true&width=640&height=45&color=f75c7e&vCenter=true&pause=1000&size=22" />
   </a>
 </p>
 
@@ -59,7 +59,7 @@
   <a href="portif%C3%B3lio%20simples%20atv/">
     <img src="https://img.shields.io/badge/Portf%C3%B3lio-Simples-316192?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <a href="portfolio-sql/">
+  <a href="portifolio%20sql/">
     <img src="https://img.shields.io/badge/Portf%C3%B3lio-SQL-2E7D32?style=for-the-badge&logo=postgresql&logoColor=white" />
   </a>
 </p>
