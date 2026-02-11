@@ -45,6 +45,27 @@
   - RLS: [rls.sql](sql/postgres/rls.sql)
   - Portfólio: [portfolio.sql](sql/postgres/portfolio.sql)
 
+## Atividades
+<p align="center">
+  <a href="atividade%201/">
+    <img src="https://img.shields.io/badge/Atividade%201-HTML-F75C7E?style=for-the-badge&logo=html5&logoColor=white" />
+  </a>
+  <a href="atividade%202/">
+    <img src="https://img.shields.io/badge/Atividade%202-HTML-F85D7F?style=for-the-badge&logo=html5&logoColor=white" />
+  </a>
+  <a href="de%20css/">
+    <img src="https://img.shields.io/badge/Atividade-CSS-2496ED?style=for-the-badge&logo=css3&logoColor=white" />
+  </a>
+  <a href="portif%C3%B3lio%20simples%20atv/">
+    <img src="https://img.shields.io/badge/Portf%C3%B3lio-Simples-316192?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="portfolio-sql/">
+    <img src="https://img.shields.io/badge/Portf%C3%B3lio-SQL-2E7D32?style=for-the-badge&logo=postgresql&logoColor=white" />
+  </a>
+</p>
+
+### Homepage
+- Página dedicada: [Portifolio SQL](portifolio-sql.md)
 ## Como Executar (Neon)
 <p align="center">
   <a href="https://console.neon.tech/">
