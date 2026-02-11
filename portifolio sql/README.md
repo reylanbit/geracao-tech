@@ -1,5 +1,5 @@
 <p align="center">
-  <span style="color:#f75c7e;font-size:28px;font-family:'Fira Code', monospace;font-weight:700;">Portifólio SQL — Darlan Saints</span>
+  <span style="color:#2E7D32;font-size:28px;font-family:'Fira Code', monospace;font-weight:700;">Portifólio SQL — Darlan Saints</span>
 </p>
 
 ## Conteúdo

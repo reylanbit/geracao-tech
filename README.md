@@ -1,5 +1,5 @@
 <p align="center">
-  <span style="color:#f75c7e;font-size:42px;font-family:'Fira Code', monospace;font-weight:700;">Darlan Saints</span>
+  <span style="color:#FF0000;font-size:42px;font-family:'Fira Code', monospace;font-weight:700;">Darlan Saints</span>
 </p>
 
 <p align="center">
