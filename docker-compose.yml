@@ -1,0 +1,32 @@
+version: "3.9"
+services:
+  pg:
+    image: postgres:16
+    container_name: lcx-pg
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./sql/postgres:/sql/postgres
+  mysql:
+    image: mysql:8.0
+    container_name: lcx-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./sql/mysql:/sql/mysql
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: lcx-mssql
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "Your_password123!"
+    ports:
+      - "1433:1433"
+    volumes:
+      - ./sql/sqlserver:/sql/sqlserver
