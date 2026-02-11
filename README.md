@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Full-Stack%20Java%20%26%20SQL;Engenheiro%20de%20Dados;Aut%C3%B4nomo%20no%20Varejo;Sempre%20aprendendo&font=Fira%20Code&center=true&width=640&height=45&color=f75c7e&vCenter=true&pause=1000&size=22" />
+    <img src="https://readme-typing-svg.demolab.com/?lines=Darlan%20Saints;Full-Stack%20Java%20%26%20SQL;Engenheiro%20de%20Dados;Aut%C3%B4nomo%20no%20Varejo;Sempre%20aprendendo&font=Fira%20Code&center=true&width=640&height=45&color=f75c7e&vCenter=true&pause=1000&size=22" />
   </a>
 </p>
 
@@ -59,7 +59,7 @@
   <a href="portif%C3%B3lio%20simples%20atv/">
     <img src="https://img.shields.io/badge/Portf%C3%B3lio-Simples-316192?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <a href="portifolio%20sql/">
+  <a href="portfolio-sql/">
     <img src="https://img.shields.io/badge/Portf%C3%B3lio-SQL-2E7D32?style=for-the-badge&logo=postgresql&logoColor=white" />
   </a>
 </p>
@@ -81,20 +81,35 @@
 
 ## Consultas de Destaque
 <p align="center">
-  <a href="#">
+  <a href="#consulta-perfil">
     <img src="https://img.shields.io/badge/Consulta-Perfil-F75C7E?style=for-the-badge" />
-  </a>
-  <a href="#">
+  </a><br/>
+  <a href="#consulta-top-skills">
     <img src="https://img.shields.io/badge/Consulta-Top%20Skills-F85D7F?style=for-the-badge" />
-  </a>
-  <a href="#">
+  </a><br/>
+  <a href="#consulta-projetos-java-sql">
     <img src="https://img.shields.io/badge/Consulta-Projetos%20Java%2FSQL-F8D866?style=for-the-badge" />
-  </a>
-  <a href="#">
+  </a><br/>
+  <a href="#consulta-ltv-por-coorte">
     <img src="https://img.shields.io/badge/Consulta-LTV%20por%20Coorte-55960C?style=for-the-badge" />
   </a>
 </p>
 
+<a id="consulta-perfil"></a>
+### Consulta: Perfil
+- Visão consolidada do portfólio (identidade profissional e posição).
+
+<a id="consulta-top-skills"></a>
+### Consulta: Top Skills
+- Ranking de habilidades por score combinando nível e anos de experiência.
+
+<a id="consulta-projetos-java-sql"></a>
+### Consulta: Projetos Java/SQL
+- Filtro de projetos com stack Java e SQL evidenciando foco técnico.
+
+<a id="consulta-ltv-por-coorte"></a>
+### Consulta: LTV por Coorte
+- Análise de LTV por campanha e mês, com janelas e médias móveis.
 ## Foco Profissional
 - Java, Spring Boot, PostgreSQL, modelagem relacional, ETL, varejo e dados.
 - Integrações, performance e arquitetura orientada a domínio.
