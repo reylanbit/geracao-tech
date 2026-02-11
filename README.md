@@ -59,7 +59,7 @@
   <a href="portif%C3%B3lio%20simples%20atv/">
     <img src="https://img.shields.io/badge/Portf%C3%B3lio-Simples-316192?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <a href="portfolio-sql/">
+  <a href="portifolio%20sql/">
     <img src="https://img.shields.io/badge/Portf%C3%B3lio-SQL-2E7D32?style=for-the-badge&logo=postgresql&logoColor=white" />
   </a>
 </p>
