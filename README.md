@@ -81,20 +81,31 @@
 
 ## Consultas de Destaque
 <p align="center">
-  <a href="#">
+  <a href="#consulta-perfil">
     <img src="https://img.shields.io/badge/Consulta-Perfil-F75C7E?style=for-the-badge" />
   </a>
-  <a href="#">
+  <a href="#consulta-top-skills">
     <img src="https://img.shields.io/badge/Consulta-Top%20Skills-F85D7F?style=for-the-badge" />
   </a>
-  <a href="#">
+  <a href="#consulta-projetos-java-sql">
     <img src="https://img.shields.io/badge/Consulta-Projetos%20Java%2FSQL-F8D866?style=for-the-badge" />
   </a>
-  <a href="#">
+  <a href="#consulta-ltv-por-coorte">
     <img src="https://img.shields.io/badge/Consulta-LTV%20por%20Coorte-55960C?style=for-the-badge" />
   </a>
 </p>
 
+### Consulta: Perfil {#consulta-perfil}
+- Visão consolidada do portfólio (identidade profissional e posição).
+
+### Consulta: Top Skills {#consulta-top-skills}
+- Ranking de habilidades por score combinando nível e anos de experiência.
+
+### Consulta: Projetos Java/SQL {#consulta-projetos-java-sql}
+- Filtro de projetos com stack Java e SQL evidenciando foco técnico.
+
+### Consulta: LTV por Coorte {#consulta-ltv-por-coorte}
+- Análise de LTV por campanha e mês, com janelas e médias móveis.
 ## Foco Profissional
 - Java, Spring Boot, PostgreSQL, modelagem relacional, ETL, varejo e dados.
 - Integrações, performance e arquitetura orientada a domínio.
